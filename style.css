@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.player {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(31, 22, 22);
+  padding: 16px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.content {
+  color: white;
+}
+i {
+  color: white;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.spin {
+  animation: around 10s infinite ease;
+  animation-delay: 0s;
+}
+
+.singer {
+  font-size: 12px;
+  color: #b6b4b4;
+}
+
+audio {
+  width: 500px;
+  height: 40px;
+}
+
+@keyframes around {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+svg {
+  color: white;
+  font-size: 24px;
+}
+
+.gap {
+  gap: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+button i {
+  font-size: 30px;
+}
