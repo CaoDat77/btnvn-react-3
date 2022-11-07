@@ -70,6 +70,26 @@ button {
   border: none;
 }
 
-button i {
+.btn i {
   font-size: 30px;
+  margin: 0 16px;
+}
+
+.pause-btn {
+  display: none;
+}
+
+input {
+  width: 300px;
+}
+
+.timer {
+  margin-top: 10px;
+  color: white;
+}
+
+.duration,
+.remaining {
+  margin: 0 16px;
+  color: white;
 }
