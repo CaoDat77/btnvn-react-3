@@ -95,7 +95,7 @@ function App() {
     },
 
     {
-      thumbnail: "/myanh.jpeg",
+      thumbnail: "myanh.jpeg",
       title: "Real Love",
       singer: "Mỹ Anh",
       link: "Real-Love.mp3",
